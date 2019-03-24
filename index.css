@@ -1,0 +1,575 @@
+/*Base styles*/
+* {
+  box-sizing: border-box;
+}
+body, html {
+  padding: 0;
+  margin: 0;
+  font: 20px Arial;
+  height: 100%;
+  background: #eee;
+  color: #222;
+}
+h2, h3, h4, h5, p {
+  margin: 10px 0 0;
+}
+h3 {
+  opacity: 0.95;
+}
+h4 {
+  opacity: 0.9;
+}
+h5, h6 {
+  opacity: 0.85;
+}
+p {
+  margin: 0 0 20px;
+  line-height: 1.5;
+  opacity: 0.85;
+}
+h1 {
+  display: inline-block;
+  color: #222;
+}
+header,footer {
+  padding: 25px 20px 55px;
+  font-family: Verdana;
+  position: relative;
+  min-width: 100px;
+}
+
+/*Layout*/
+.cf:after {
+  clear: both;
+}
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+.cf {
+  zoom: 1;
+}
+.primary-color {
+  color: #222;
+}
+.primary-background {
+  background: #222;
+}
+.secondary-color {
+  color: #777;
+}
+.secondary-background {
+  background: #777;
+}
+.tertiary-background {
+  background: #f7f7f7;
+}
+.tertiary-color {
+  color: #f7f7f7;
+}
+.vertical-text {
+  word-wrap: break-word;
+  writing-mode: tb-rl;
+  writing-mode: vertical-lr;
+  display: block;
+  transform: rotate(-180deg);
+  white-space: nowrap;
+}
+.height-100 {
+  min-height: 100%;
+}
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.col-1 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: right;
+  justify-content: center;
+}
+.col-2 {
+  -webkit-box-flex: 100%;
+  -ms-flex: 100%;
+  flex: 100%;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.margin-0{
+  margin:0
+}
+.footer {
+  transform: none;
+}
+.portfolio-link {
+  text-decoration: none;
+  font-size: 2em;
+}
+
+/*view layout*/
+.view {
+  background: #fff;
+  padding: 20px 50px;
+  margin: 0 0 25px;
+}
+@media screen and (min-width: 0px) {
+  .view {
+    display: none;
+  }
+}
+.content {
+  margin: auto;
+  max-width: 700px;
+}
+.project-list {
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  position: relative;
+  border-left:2px solid
+}
+.project-list li a {
+  color: inherit;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+}
+.project-list li a:before {
+  display: block;
+  content: attr(title);
+  font-weight: bold;
+  height: 1px;
+  color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+}
+.project-list li {
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+.project-list ~ .content, .project-list ~ h2{
+  padding-left: 15px;
+  border-left: 2px solid
+}
+.project-list ~ h2{
+  margin-top: -20px;
+  padding-top:20px
+}
+.project-preview{
+  max-width:100%;
+  margin-top:10px
+}
+/*Main/Home Screen Navigation Layout*/
+.main-nav {
+  min-height: calc(100vh - 20px);
+  flex: 1 1 100%;
+  flex-direction: column;
+  z-index: 1;
+  top: 100%;
+  left: 100%;
+  transition: opacity 0.3s 0.5s;
+}
+.main-nav-link {
+  position: absolute;
+  right: 105px;
+  top: 5px;
+  max-width: 100%;
+  min-height: 100%;
+  border-radius: 0;
+  left: 105px;
+  transition: max-width 0.15s 0.15s, min-height, 0.15s 0.15s, border-radius 0.3s,
+    background-color 0.5s 0.3s, z-index 0s 0.75s;
+  z-index: -1;
+}
+.main-nav-link a {
+  display: none;
+}
+.main-nav-link a:before {
+  content: "\2261";
+  display: block;
+  line-height: 50px;
+  top: 0;
+  width: 100%;
+  position: absolute;
+  font-size: 20px;
+}
+.main-nav-link a:after {
+  content: "";
+}
+.main-nav-item {
+  margin: 5px;
+  flex: 100%;
+  min-height: 200px;
+  flex-direction: row;
+  flex-basis: calc(50% - 10px);
+  justify-content: center;
+  position: relative;
+  box-shadow: 0px 0px 2px 1px rgba(204, 204, 204, 0.8);
+  animation: shown 0.5s ease-out;
+}
+.main-nav-item a {
+  display: inline-block;
+  color: inherit;
+}
+.main-nav-inner {
+  padding: 30px 50px;
+  width: 100%;
+  align-self: center;
+  z-index: 1;
+}
+.main-nav-list {
+  list-style: none;
+  padding: 10px 0px;
+  box-sizing: border-box;
+  margin: 0;
+}
+.main-nav-list a {
+  padding: 0 10px 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  text-decoration: none;
+}
+.main-nav ul, .main-nav p {
+  width: 65%;
+  text-align: right;
+  float: right;
+}
+
+/*Project Navigation Module*/
+.project-title {
+  font-weight: normal;
+}
+.projects:after {
+  content: "";
+  background: url(https://img00.deviantart.net/992b/i/2017/359/2/9/minina_hyperdrive_by_sheldon227-d7bhlqh.png) -122px -55px / cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.projects:before {
+  content: "";
+  background: #777;
+  background: linear-gradient(to right, rgba(119, 119, 119, 0.8) 0%, rgba(119, 119, 119, 1) 65%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.projects .main-nav-list li:before {
+  background: #777;
+  content: "";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+}
+.projects .main-nav-list li:hover:before {
+  opacity: 1;
+  width: 100%;
+}
+.projects .main-nav-list li:hover {
+  text-shadow: 0px 0px 2px #fff;
+}
+.projects .main-nav-list li:after {
+  content: "";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.projects .main-nav-list li:nth-child(1):hover:before {
+  opacity: 0;
+}
+.projects .main-nav-list li:nth-child(1):hover:after {
+  background: url(https://img00.deviantart.net/992b/i/2017/359/2/9/minina_hyperdrive_by_sheldon227-d7bhlqh.png) -122px -55px / cover;
+  opacity: 0.2;
+  width: 100%;
+}
+.projects .main-nav-list li:nth-child(2):hover:after {
+  background: url(http://pre01.deviantart.net/ac2d/th/pre/i/2016/123/5/4/bursun_light_by_sheldon227-d9f89no.png) -175px -100px / cover;
+  opacity: 0.4;
+  width: 100%;
+}
+.projects .main-nav-list li:nth-child(3):hover:after {
+  background: url(https://orig00.deviantart.net/f3f4/f/2011/172/c/4/eclipse_the_cyber_warrior_by_sheldon227-d3jm86w.jpg) -100px 0px / cover;
+  opacity: 0.4;
+  width: 100%;
+}
+.projects .main-nav-list li:nth-child(4):hover:after {
+  background: url(https://orig00.deviantart.net/48e6/f/2012/336/4/5/taz_by_sheldon227-d5msv69.jpg) -175px -40px / cover;
+  opacity: 0.4;
+  width: 100%;
+}
+
+/*Resume Navigation Module*/
+.resume {
+  text-align: center;
+}
+.resume a {
+  text-decoration: none;
+}
+
+/*About Navigation Module*/
+.about .main-nav-inner {
+  position: relative;
+}
+.about:after {
+  content: "";
+  background: url(https://raw.githubusercontent.com/Sheldon-Lloyd/Cyber.Beast/master/images/Jax.png);
+  background-position: -132px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.about:before {
+  content: "";
+  background: #f7f7f7;
+  background: linear-gradient(to right,rgba(247, 247, 247, 0.8) 0%,    rgba(247, 247, 247, 1) 65% );
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.projects {
+  z-index: 2;
+}
+
+/*States*/
+.project-list li.is-active, .project-list li:hover, .project-list-heading {
+  font-weight: bold;
+  position: relative;
+}
+.project-list li.is-active:after, .project-list-heading:after, .project-list li:hover:not(:first-of-type):not(.is-active):after{
+  content: "+";
+  position: absolute;
+  top: 0px;
+  left: -8px;
+  padding:2px;
+  background: #fff;
+}
+.view:target {
+  display: block;
+  margin: 0;
+  animation: shown 0.3s ease-out;
+}
+.view:target ~ .main-nav > .main-nav-item {
+  display: none;
+}
+.view:target ~ .main-nav {
+  max-width: 0;
+}
+.view:target ~ .main-nav .main-nav-link {
+  background-color: #272727;
+  position: fixed;
+  color: #f1f1f1;
+  max-width: 50px;
+  min-height: 50px;
+  text-align: center;
+  align-content: center;
+  left: 75px;
+  top: 20px;
+  border-radius: 100%;
+  z-index: 2;
+  transition: max-width 0.3s, min-height, 0.3s, border-radius 0.15s 0.15s;
+}
+.view:target ~ .main-nav .main-nav-link a {
+  display: block;
+  color: #f1f1f1;
+  text-align: center;
+  text-decoration: none;
+  width: 50px;
+  line-height: 50px;
+  animation: shown 0.7s ease-out;
+}
+
+@media screen and (min-width: 1020px) {
+  .main-nav-item {
+    width: calc(50% - 10px);
+    min-height: 120px;
+  }
+  .main-nav {
+    flex-wrap: wrap;
+    flex-direction:row;
+  }
+  .main-nav-link a:before {
+    content: "\0025A0 \0025A0";
+    display: block;
+    line-height: 0;
+    top: 18px;
+    width: 100%;
+    font-size: 0.8em;
+  }
+  .main-nav-link a:after {
+    content: "\0025A0 \0025A0";
+    line-height: 0;
+    display: block;
+    bottom: 22px;
+    width: 100%;
+    font-size: 0.8em;
+    position: absolute;
+  }
+  .project-list {
+    float: left;
+    height: 100%;
+    max-width: 30%;
+    text-align: right;
+    border: 0;
+    margin: -20px 0;
+    padding: 10px 0;
+    border-right:2px solid;
+  }
+  .project-list ~ .content, .project-list ~ h2 {
+    border:0
+  }
+  .project-list-heading h3 {
+    font-size: 1.5em;
+    line-height:1.2em
+  }
+  .project-title {
+    padding-left:15px
+  }
+  .project-list li.is-active:after, .project-list-heading:after,.project-list li:hover:after {
+    left: auto!important;
+    right: -6.5px;
+    background:#fff
+  }
+  .project-list-heading:after {
+    top: 7px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  footer {
+    display: none !important;
+  }
+  header {
+    padding: 15px 10px;
+    min-width: 70px;
+  }
+  .view {
+    padding: 10px 30px;
+  }
+  .view:target ~ .main-nav .main-nav-link {
+    left: 45px;
+  }
+  .main-nav-link {
+    left: 75px;
+    right: 0;
+  }
+}
+
+@keyframes shown {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Resposive Layout*/
+@media screen and (max-width: 550px) {
+  body {
+    font-size: 15px;
+  }
+  .main-nav ul, .main-nav p {
+    width: auto;
+    text-align: left;
+    float: none;
+  }
+  .main-nav-list a {
+    padding-left: 0;
+  }
+  .main-nav-link {
+    left: 0;
+    right: 0;
+  }
+  .view:target ~ .main-nav .main-nav-link {
+    left: 5px;
+    top: 5px;
+  }
+  .view {
+    padding-top: 100px;
+    margin-top: -100px !important;
+  }
+  header.vertical-text {
+    writing-mode: lr-tb;
+    writing-mode: initial;
+    transform: none;
+    padding: 10px 50px;
+  }
+  .portfolio-link{
+    display:none;
+  }
+  .flexbox {
+    flex-wrap: wrap;
+  }
+  .main-nav {
+    margin-top: 0;
+    display:block;
+  }
+  .project-list li.is-active:after, .project-list-heading:after, .project-list li:hover:after {
+    left:-7px
+  }
+}
+
+/*IE backwards compatibility*/
+@media screen and (min-width: 0) and (min-resolution: 0.001dpcm) {
+  .main-nav-item {
+    height: auto\9;
+    margin: auto\9;
+  }
+  .vertical-text {
+    writing-mode: initial\9;
+    writing-mode: lr-bt\9;
+    transform: none\9;
+    text-align: left\9;
+    margin: auto\9;
+    max-width: 50%\9;
+  }
+  .view {
+    padding-top: 100px\9;
+    margin-top: -100px!important\9;
+  }
+}
