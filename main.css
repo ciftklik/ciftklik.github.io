@@ -1,0 +1,359 @@
+/*
+Name             : N Light Responsive Blogger Template
+Theme Published  : 03-05-2016
+Type             : Personal Blog
+Style            : Minimalist
+Designer         : Arlina Design
+Designer url     : www.arlinadzgn.com
+Thanks to        : All supported
+Special Thanks   : www.kompiajaib.com
+License          : This free Blogger template is licensed under the Creative Commons Attribution 4.0 License, which permits both personal and commercial use.
+*/
+/* CSS Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+/* HTML5 */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;display:block;}*{margin:0;padding:0;}html{display:block;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{background:transparent;}table{border-collapse:collapse;border-spacing:0;}*,*:before, *:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}ins{background:#f2f3f6;}
+/* Body Layout */
+body#layout ul,#layout ul {display:none;}
+body#layout #outer-wrapper, body#layout .post-inner, body#layout .sidebar, body#layout .sidebar-two {padding:0;}
+body#layout #wrapper, body#layout .post-inner, body#layout .sidebar-inner {padding:0;}
+body#layout .header-wrapper {margin-top:0;}
+body#layout #header {min-height:0px;width:100%;}
+body#layout #headerlight {width:30%;float:left;}
+body#layout #header-right {width:60%;float:right;}
+#layout,#layout .widget-content,#layout .add_widget {border:none;}
+body#layout .add_widget {border:1px solid #ddd;}
+#layout .add_widget a {color:#333;}
+#layout #header{min-height:0px;width:100%;margin:10px 0 0 0;}
+#layout #footer-wrapper .footer-column{width:33.33%;float:left}
+#layout #main-wrapper{width:70%;float:left}
+#layout #sidebar-wrapper{width:30%;left:0;padding:0;float:right}
+#layout .draggable-widget .widget-wrap2 {background:#c1cfd9;}
+#layout #banner,#layout #banner2 {background-color:#444;padding:20px 0!important;margin-bottom:20px;}
+#layout #banner .widget,#layout #banner2 .widget{width:80%;margin:5px auto!important;overflow:hidden;float:none}
+#layout #banner .add_widget,#layout #banner2 .add_widget{width:80%;margin:5px auto!important;overflow:hidden;float:none}
+#footer-xwidget .footer-widget {width:31.7%;float:left;margin-left:10px;}
+#footer-wrapper {overflow:hidden;margin:0 auto 20px auto;padding:20px 0 0;}
+/* Layout */
+body {background:#f2f3f6;font-family:Sans-Serif,sans-serif!important;font-size:14px!important;font-weight:400!important;text-align:left;color:#333;margin:0;padding:0;}
+.navbar,.post-feeds,.feed-links{display:none;}.section,.widget{margin:0;padding:0;}strong,b{font-weight:bold;padding:0;}cite,em,i{font-style:italic;}a:link,a:visited {color:#555;text-decoration:none;transition:all .3s}a:hover,a:hover:visited {color:#5f93fa}a img{border:none;border-width:0;outline:none;}img{max-width:100%;vertical-align:middle;border:0;}abbr,acronym{border-bottom:1px dotted;cursor:help;}sup,sub{vertical-align:baseline;position:relative;top:-.4em;font-size:86%;}sub{top:.4em;}small{font-size:86%;}kbd{display:inline-block;font-size:90%;color:#3498db;}mark{background-color:#ffce00;color:#182025;}p,blockquote,pre,table,figure,hr,form,ol,ul,dl{margin:1.5em 0;}hr{height:1px;border:none;background-color:#999;}code,kbd,pre,samp{font-family:monospace,monospace;}
+pre{white-space:pre;word-wrap:normal;overflow:auto;font-size:13px;margin:0;}*:focus {outline:0!important;}h1,h2,h3,h4,h5,h6{font-weight:700;line-height:normal;}h1{font-size:200%}h2{font-size:180%}h3{font-size:160%}h4{font-size:140%}h5{font-size:120%}h6{font-size:100%}
+.post-body blockquote{background:#92c15c;position:relative;padding:55px 20px 20px 20px;color:#fff;margin:10px 0;border-radius:3px}
+.post-body blockquote:before{position:absolute;content:'İlgili Yazi';background:rgba(255,255,255,1);right:3px;left:3px;top:3px;padding:5px 20px;display:block;font-weight:700;border-radius:3px 3px 0 0;color:#92c15c}
+.post-body blockquote a,.post-body blockquote a:hover {color:#fff;}
+.post-body h1{font-size:200%}.post-body h2{font-size:180%}.post-body h3{font-size:160%}.post-body h4{font-size:140%}.post-body h5{font-size:120%}.post-body h6{font-size:100%}
+input,button,select,textarea{font-size:100%;line-height:normal;vertical-align:baseline;}
+textarea{display:block;box-sizing:border-box;}
+input.placeholder_text,textarea.placeholder_text{color:#888}
+.post ul li span{position:relative;display:block;padding:0;margin:.5em 0 .5em 2em;text-decoration:none;}
+ol {counter-reset:li;list-style:none;padding:0;margin:0;}
+ol ol {margin: 0 0 0 2em;}
+.post ol li{position:relative;display:block;padding:0;margin:.5em 0 .5em 2em;background:#fff;text-decoration:none;}
+.post ol li:before {content:counter(li);counter-increment:li;position:absolute;left:-2.5em;height:2em;width:2em;text-align:center;}
+.post-body ul {position:relative;display:block;padding:0;margin:.5em 0 .5em 1.5em;text-decoration:none;}
+/* Post Table */
+.post-body table {width:100%;}
+.post-body table td,.post-body table caption{background-color:#fafafa;border:1px solid #e3e3e3;padding:10px;text-align:left;vertical-align:top}
+.post-body table th {border:1px solid #6f7cb0;padding:10px;text-align:left;vertical-align:top;}
+.post-body table.tr-caption-container {border:1px solid #d9534f;}
+.post-body th{font-weight:700;}
+.post-body table caption{border:none;font-style:italic;}
+.post-body td, .post-body th{vertical-align:top;text-align:left;font-size:13px;padding:3px 5px;border:1px solid #8bc34a;}
+.post-body th{background:#8593cc;color:#fff;}
+.post-body th:hover{background:#6f7cb0;}
+.post-body td a{color:#444;}
+.post-body td a:hover{color:#cf4d35;}
+.post-body table.tr-caption-container td {border:none;padding:8px;}
+.post-body table.tr-caption-container, .post-body table.tr-caption-container img, .post-body img {max-width:100%;height:auto;}
+.post-body li {list-style-type:square;}
+.post-body td.tr-caption {color:#666;font-size:80%;padding:0px 8px 8px !important;}
+.sr {visibility:hidden;width:0;height:0;}
+/*Adsense*/
+div#AdSense1 &gt; .widget-content {
+    background: none;
+}
+/*Stats1*/
+#Stats1{
+display:none;
+}
+/*css user select
+*:not(input):not(textarea) {
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}*/
+/*Logo Hover
+  #headerlight:hover{
+ box-shadow: 0px -1px 20px 11px #35b729; 
+}*/
+/* Custom Cookies Info Dark */
+.cookie-choices-info{background-color:rgba(56,66,75,.97)!important;line-height:normal!important;top:initial!important;bottom:0!important;font-family:inherit!important;-webkit-transform:translateZ(0);}
+.cookie-choices-info .cookie-choices-text{font-size:14px!important;color:#cee6ea!important}
+.cookie-choices-info .cookie-choices-button{font-weight:normal!important;color:#fff!important;margin-left:5px!important;padding:3px 6px!important;background:#f64c3b!important;letter-spacing:.8px;transition:all .4s linear}
+.cookie-choices-info .cookie-choices-button:nth-child(2){background:#f68c2e!important;transition:all .4s linear}
+.cookie-choices-info .cookie-choices-button:hover,.cookie-choices-info .cookie-choices-button:nth-child(2):hover{background:#282f36!important;transition:all .1s linear}
+/* Arlina Fixed Layout */
+.CSS_LIGHTBOX {z-index:999999!important;}
+.CSS_LIGHTBOX_BG_MASK_TRANSPARENT {opacity:.95!important;}
+.CSS_LIGHTBOX_SCALED_IMAGE_IMG {width:auto!important;max-width:100%;box-shadow:0 0 10px rgba(0,0,0,0.1);}
+.CSS_LIGHTBOX_BTN_CLOSE {background: url(&#39;http://4.bp.blogspot.com/-9vBNlzkjRGU/VUlVTtzbolI/AAAAAAAAG-c/xBqHPFfMkzE/s1600/delete.png&#39;) no-repeat!important;width:32px!important;height:32px!important;top:20px!important;opacity:0.7;transition:all .3s;}
+.CSS_LIGHTBOX_BTN_CLOSE:hover{opacity:1;}
+.CSS_LIGHTBOX_BTN_CLOSE_POS {right:20px!important;}
+/*contact form css i*/
+
+.post,.widget-content,.daftar-recent-post,.breadcrumbs,.banner .widget,.banner2 .widget,#blog-pager,#comments{box-shadow:0 1px 2px rgba(0,0,0,0.1);}
+.banner .widget-content,.banner2 .widget-content,#LinkList215 .widget-content{box-shadow:0 0 0 transparent}
+#BlogArchive1 li.archivedate {padding:0;}
+#BlogArchive1 #ArchiveList ul.posts li {padding:0 0 4px 5px;}
+#HTML68{margin:0}
+/* Arlina Template Wrapper */
+.maxwrap {max-width:970px;margin:0 auto;}
+#wrapper {display:block;position:relative;overflow:hidden;max-width:970px;margin:0 auto;padding:0;}
+#content-wrapper {display:block;position:relative;overflow:hidden;padding:0;}
+/* Arlina Search Form */
+.menusearch{background:#92c15c;display:block;float:right;border:0;width:100%;max-width:400px;line-height:44px;margin:12px 0 0 0;border-radius:3px}
+.searchform{position:relative;padding:0;margin:0;color:rgba(0,0,0,.6);overflow:hidden;border-radius:3px;transition:all .6s}
+.searchform:hover,.searchform:active{color:#fff;outline:0;}
+.searchform input{color:rgba(0,0,0,.5);font-weight:700;letter-spacing:.3px;padding:0;margin:0}
+.searchform input:focus{color:rgba(0,0,0,.8);}
+.searchform .searchfield{/*bayram*/background:#fff;border:0;outline:none;width:83%;padding:15px}
+.ico-mglass{position:absolute;display:inline-block;background:none;height:8px;width:8px;right:27px;top:14px;text-align:center;box-sizing:initial;cursor:pointer;border-radius:100%;border:3px solid rgba(255,255,255,1)}
+.ico-mglass:after{content:&quot;&quot;;height:3px;width:8px;background:rgba(255,255,255,1);position:absolute;top:10px;left:5px;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}
+#searchsubmit{position:absolute;background:transparent;border:0;padding:8px 16px;cursor:pointer;right:10px;z-index:2}
+#searchsubmit:hover,#searchsubmit:active{cursor:pointer;outline:none}
+/* Arlina Header Wrapper */
+#header{background: #000300 url(https://4.bp.blogspot.com/-qUV-lZyKByo/WaEWdJOBgDI/AAAAAAAAAME/BRFdQc6YkHQ_wReKfkf5XNFpnaK9Fu6VQCLcBGAs/s1600/Untitled.png) no-repeat top center;background-size: cover;
+/* bayrambackground: #000300 url(http://1.bp.blogspot.com/-bnimAk4eBRI/WyNI8OSfo-I/AAAAAAAAAgM/7iRIc8-6E1M-eHReVUbS-5-s_rjGg3XKwCK4BGAYYCw/s1600/bayram.png) no-repeat center;*/
+ position:relative;display:block;padding:40px 20px;overflow:hidden;color:#fff;border-top:1px solid rgba(0,0,0,0.06)}
+#header .title{font-size:240%;margin:0;padding:0 0 10px;display:inline-block;width:100%;max-width:310px}
+#header .title a {color:#fff;transition:all .6s}
+#header .title a:hover {color:#fafafa;}
+#header p.description{font-size:110%;margin:0;display:inline-block}
+.header img,.header-right img {display:block;}
+#headerlight {float:left;max-width:45%;}
+.header-right img {max-height:60px;}
+.header-right{float:right;padding:0;overflow:hidden;margin:0;max-width:768px;}
+/* Arlina Main Navigation */
+#lightnavigation{background:#189e15;font-size:0;white-space:nowrap;letter-spacing:.5px;border-bottom:1px solid rgba(0,0,0,0.06);box-shadow:0 0 4px rgba(0,0,0,0.1);margin:0 auto 20px auto}
+#lightnavigation ul.menus{height:auto;overflow:hidden;position:absolute;z-index:99;display:none}
+#lightnavigation a{display:block;padding:20px 18px;text-decoration:none;color:#fff;text-transform:uppercase;}
+#lightnavigation ul,#lightnavigation li {background:#189e18;margin:0 auto;padding:0;list-style:none}
+#lightnavigation li {display:inline-block;position:relative;font-size:14px;font-weight:700;}
+#lightnavigation li.indie a{background:rgba(0,0,0,.06);padding:20px;}
+#lightnavigation li:hover.indie,#lightnavigation li:hover.indie a{background:rgba(0,0,0,.06);color:#fff;}
+#lightnavigation input {display:none;margin:0;padding:0;width:80px;height:45px;opacity:0;cursor:pointer}
+#lightnavigation label {display:none;width:55px;height:48px;line-height:48px;text-align:center}
+#lightnavigation label span {font-size:16px;position:absolute;left:55px}
+#lightnavigation ul.menus li {display:block;width:100%;text-transform:none;text-shadow:none;}
+#lightnavigation ul.menus a {color:#ec3838;line-height:55px}
+#lightnavigation li&gt;a{display: table-cell!important;vertical-align: middle;height: 60px;padding: 0 16px;position: relative;color: #fff;text-decoration: none;transition: all .3s;cursor: pointer;}
+#lightnavigation li a:hover {background:rgba(0,0,0,.06);color:#fff;box-shadow: inset 0 -2px 0 0 #fff;}
+#lightnavigation ul.menus a:hover {background:rgba(0,0,0,0.08);color:#fff;}
+#lightnavigation li ul{visibility:hidden;opacity:0;background:#fff;margin:0;width:150px;height:auto;position:absolute;top:100%;left:0;z-index:10;box-shadow:0 4px 15px -2px rgba(0,0,0,0.1);}
+#lightnavigation li:hover ul.menus,#lightnavigation li:hover &gt; ul{visibility:visible;opacity:1;}
+#lightnavigation li li {display:block;float:none;font-size:13px;border-bottom:1px solid #f5f5f5;}
+#lightnavigation li li:before{display:none}
+#lightnavigation li li:last-child {border:0;}
+#lightnavigation li ul ul {left:100%;top:0}
+#lightnavigation li li &gt; a{background:#fff;color:#555;display:block;padding:12px 15px;margin:0;text-decoration:none;text-transform:none;}
+#lightnavigation li li:hover,#lightnavigation li li a:hover {background:#f6f7fa;color:#3b5998;}
+/* Arlina Post Wrapper */
+#main-wrapper{width:66.98%;float:left;margin:0 20px 0 0;padding:0;word-wrap:break-word;overflow:hidden;}
+.main .Blog{border-bottom-width:0}
+.main .widget{margin:0;padding:0}
+.date-header{display:none!important}
+h1.post-title.entry-title,h2.post-title.entry-title {font-size:20px;margin:0 0 15px;}
+h1.post-title.entry-title a,h2.post-title.entry-title a{color:#3b5998;}
+h1.post-title.entry-title a:hover,h2.post-title.entry-title a:hover{color:#5e94ef;}
+.post{background:#fff;position:relative;margin:0 0 20px 0;padding:20px}
+.post-body {margin:0;line-height:1.7em;text-align:left;font-size:15px;}
+.post-info a {text-transform:uppercase;font-weight:700;}
+.post-info abbr {border:0;}
+.post-timestamp,.author-info,.comment-info,.label-info{padding:0 10px 0 0}
+.post-body img,.post-body video,.post-body object {background:#fafafa;max-width:100%}
+.breadcrumbs{background:#fff;color:#999;padding:18px 20px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;border-bottom:1px solid rgba(0,0,0,0.12);}
+.breadcrumbs a{background:#251f43;color:#fff;margin:0 2px;padding:4px 8px;line-height:normal;font-size:85%;opacity:1;border-radius:2px}
+.breadcrumbs .breadhome a{margin:0 5px 0 0}
+.breadcrumbs .breadlabel:nth-child(1) a{background:#f5ad3a;}.breadcrumbs .breadlabel:nth-child(2) a{background:#da972d;}.breadcrumbs .breadlabel:nth-child(3) a{background:#70c3eb;}.breadcrumbs .breadlabel:nth-child(4) a{background:#F2784B;}
+.breadcrumbs .breadlabel:last-child{margin:0 0 0 6px}
+.breadcrumbs a:hover{opacity:.9;color:#fff;}
+.post-footer{line-height:1.6em}
+.post-footer a{color:#8bc34a;font-weight:700}
+.feed-links{clear:both;line-height:2.5em;}
+/* Arlina Sidebar Wrapper */
+#sidebar-wrapper{padding:0;width:30.9%;float:right;word-wrap:break-word;overflow:hidden}
+#sidebar-wrapper h2,#sidebar-wrapper h3,#sidebar-wrapper h4{position:relative;overflow:hidden;margin:0;font-size:1.1em;text-transform:uppercase;font-weight:700;vertical-align:middle;padding:12px 20px;border-bottom:1px solid rgba(0,0,0,0.14);background:#fff url(https://i.hizliresim.com/dP8JLZ.jpg) repeat-x;color:#4787ed}
+#sidebar-wrapper h2 span,#sidebar-wrapper h3 span,#sidebar-wrapper h4 span{display:inline-block;vertical-align:middle}
+#sidebar-wrapper .widget ul{margin:0;padding:0}
+.widget-content{background:#fff;margin:0;padding:12px 20px;overflow:hidden;}
+.daftar-recent-post{background:#fff;padding:12px 20px;}
+.sidebar {line-height:1.5em;padding:0}
+.sidebar ul {padding:0;margin:0}
+.BlogArchive #ArchiveList ul li {text-indent:0!important}
+.sidebar ul li{
+	margin-right: 1px;
+    padding: 4px;
+    float: left;
+    border-bottom: 1px solid #eaeaea;
+}
+.sidebar .widget {margin:0 0 20px 0}
+/* Label */
+.label-size-1,.label-size-2,.label-size-3,.label-size-4,.label-size-5 {font-size:100%;opacity:1}
+.label-size {background:#fff;display:block;float:left;margin:0 3px 3px 0;color:#999;font-size:11px;line-height:1.2;}
+.label-size a,.label-size span{display:inline-block;color:#666;padding:8px 10px}
+.label-count {white-space:nowrap;padding-right:3px;margin-left:-3px;color:#999;}
+.label-count:hover {color:#5e94ef;}
+#sidebar-wrapper .Label li {background:#fff;color:#666;float:left;padding:10px 5px;margin-left:3px;text-align:left;width:95%;border-bottom:1px solid rgba(0,0,0,0.06);}
+#sidebar-wrapper .Label li:hover {background:#fff;color:#5e94ef;}
+#sidebar-wrapper .Label li a {color:#3b5998;}
+#sidebar-wrapper .Label li a:hover {color:#5e94ef;}
+#sidebar-wrapper .label-size{border:none;background:#dd4b39;display:block;float:left;margin:0 5px 5px 0;color:#fff;font-size:11px;font-weight:700;text-transform:uppercase}
+#sidebar-wrapper .label-size a{background:#80cbc4;display:inline-block;color:#fff;}
+#sidebar-wrapper .label-size a:hover {background:#dd4b39;color:#fff;}
+#sidebar-wrapper .Label li:hover:before {margin:0 0 0 5px;color:#dd4b39;}
+#sidebar-wrapper .Label li span{float:right;background-color:#189e15;color:#fff;line-height:1.2;margin:0;padding:4px 6px;text-align:center;font-size:13px;}
+#sidebar-wrapper .Label li span:hover{background-color:#251f43;color:#fff}
+#sidebar-wrapper .label-size:nth-child(n+12) {display:none;}
+/* Arlina Footer Wrapper */
+#footer-wrapper{text-align:center;background:#fff;padding:20px 0;margin:auto;border-top:1px solid rgba(0,0,0,0.06);}
+.medsosbawah a{display:inline-block;text-align:center;margin-top:10px;margin-right:5px;color:#fff}
+.medsosbawah a i{font-family:Fontawesome;width:32px;height:32px;line-height:32px;display:block}
+.medsosbawah a:hover{color:#fff;opacity:.7}
+.medsosbawah .facebook{background:#3b5998}
+.medsosbawah .twitter{background:#00aced}
+.medsosbawah .googleplus{background:#dd4b39}
+.medsosbawah .rssfeed{background:#ee802f}
+.atas{visibility:hidden;z-index:2;background:#555;color:#fff;font-size:20px;width:37px;height:37px;line-height:34px;text-align:center;position:fixed;bottom:35px;right:30px;cursor:pointer}
+.atas.dulur{visibility:visible;cursor:pointer;opacity:1;-webkit-transform:translateZ(0);transform:translateZ(0);transition:all .6s;transition-delay:0}
+.atas:hover{opacity:.8;color:#fff}
+#footme{max-width:970px;height:auto;padding:0 30px;margin:0 auto;overflow:hidden;color:#555;font-size:14px;font-weight:700;line-height:1.8}
+.footmekiri{text-align:left;float:left}
+.footmekanan{text-align:right;float:right}
+/* Popular Post */
+#PopularPosts1 ul,.PopularPosts li,.PopularPosts li img,.PopularPosts li a,.PopularPosts li a img{color:#3b5998;margin:0;padding:0;list-style:none;border:none}
+#PopularPosts1 ul{margin:0;list-style:none}
+#PopularPosts1 ul li{margin:5px 0;padding:5px 0;position:relative}
+#PopularPosts1 ul li img{display:block;width:100%;height:60px}
+#PopularPosts1 ul li .item-title a,.PopularPosts ul li a{font-size:14px;font-weight:700}
+#PopularPosts1 .item-thumbnail{margin:0 10px 0 0;width:60px;height:60px}
+#PopularPosts1 .item-title{padding:0 5px}
+#PopularPosts1 ul li:nth-child(1){border-top:none}
+/* Sosial Media Widget */
+#HTML68 {margin:0 0 20px 0;}
+#HTML68 .lightsosmed-info h4{background:transparent;position:relative;padding:0;margin:0;border:0;text-align:center;font-size:120%}
+.lightsosmed-img{position:relative;max-height:140px;overflow:hidden}
+.lightsosmed-img img {max-width:100%;width:100%;transition:all .6s;}
+.lightsosmed-img:hover img{transform:scale(1.2) rotate(-10deg)}
+.lightsosmed-img:before{content:&#39;&#39;;background:rgba(0,0,0,0.3);position:absolute;top:0;left:0;right:0;bottom:0;z-index:2;transition:all .3s}
+.lightsosmed-img:hover:before{background:rgba(0,0,0,0.6);}
+.aboutfloat-img{width:55%;position:absolute;top:35%;bottom:35%;left:22.5%;z-index:3}
+.lightsosmed-float{text-align:center;display:table;width:100%;height:100%}
+.lightsosmed-float a{background:#8bc34a;color:#fff;padding:8px 14px;z-index:2;display:table-cell;width:100%;font-size:90%;text-transform:uppercase;vertical-align:middle;border-radius:3px;box-shadow:3px 3px 3px rgba(0,0,0,0.05);transition:all .3s}
+.lightsosmed-float:hover a{background:#7cb342;color:#fff;border-color:transparent;}
+.lightsosmed-float a i{font-weight:normal;margin:0 5px 0 0}
+.lightsosmed-wrpicon{display:block;margin:15px auto;position:relative;}
+.lightsosmed-wrpicon .extender{width:100%;display:block;}
+.extender{text-align:center;font-size:16px}
+.extender .lightsosmed-icon{display:inline-block;border:0;margin:0;padding:0;width:32%;}
+.extender .lightsosmed-icon a{background:#ccc;display:inline-block;font-weight:400;color:#fff;padding:0 12px;line-height:32px;border-radius:3px;font-size:12px;width:100%;}
+.extender .lightsosmed-icon i{font-family:fontawesome;margin:0 3px 0 0}
+.lightsosmed-icon.fbl a{background:#3b5998}
+.lightsosmed-icon.twitt a{background:#19bfe5}
+.lightsosmed-icon.crcl a{background:#d64136}
+.lightsosmed-icon.fbl a:hover,.lightsosmed-icon.twitt a:hover,.lightsosmed-icon.crcl a:hover{background:#404040}
+.extender .lightsosmed-icon:hover a,.extender .lightsosmed-icon a:hover{color:#fff;}
+.lightsosmed-info{margin:10px 0 0 0;font-size:13px;text-align:center;}
+.lightsosmed-info p{margin:5px 0}
+.lightsosmed-info h4{margin-bottom:10px;font-size:16px;text-transform:uppercase;color:#444;font-weight:700}
+.lightsosmed-info h4 span {position:relative;display:inline-block;padding:0 10px;margin:0 auto;}
+.lightsosmed-info h4:before,.lightsosmed-info h4:after {position:absolute;top:51%;overflow:hidden;width:50%;height:1px;content:&#39;\a0&#39;;background-color:rgba(0,0,0,0.08);}
+.lightsosmed-info h4:before {margin-left:-50%;text-align:right;}
+/* Ad */
+.kotak_iklan1 {position:relative;}
+.kotak_iklan1:before{content:&#39;300x250 Ad&#39;;position:absolute;background:rgba(25,25,25,.9);color:#fff;top:0;right:0;padding:2px 8px;font-size:80%}
+.kotak_iklan1:hover:before{content:&#39;Pasang iklan di blog Biografi dan Sejarah&#39;;}
+/* Banner */
+.banner,.banner2{margin:0 auto;text-align:center;overflow:hidden}
+.banner .widget,.banner2 .widget{width:100%;max-width:100%;margin:0 auto 20px auto;background:#fff;text-align:center;overflow:hidden;padding:10px}
+.banner img,.banner iframe,.banner2 img,.banner2 iframe{display:block;margin:0 auto;text-align:center;height:auto;}
+.kotak_iklan{text-align:center;margin:0 auto;transition:all 1s ease-out}
+.kotak_iklan .sidebar .widget-content,.kotak_iklan .sidebar-atas .widget-content{padding:0;border:0}
+.kotak_iklan .sidebar .widget{margin-bottom:0;padding:0}
+.kotak_iklan img{background:#fff;text-align:center;margin:0 auto;padding:4px;border:1px solid transparent!important;transition:all .6s ease-out}
+.kotak_iklan img:hover{background:#fdfdfd;border:1px solid #e6e6e6}
+.kotak_iklan2,.kotak_iklan3{text-align:center;margin:0 auto;transition:all 1s ease-out}
+.kotak_iklan2 .sidebar .widget-content,.kotak_iklan2 .sidebar-atas .widget-content{padding:0;background:#f2f6f7;box-shadow:0 1px 2px 0 rgba(0,0,0,.1);border:0}
+.kotak_iklan2 .sidebar .widget,.kotak_iklan2 .sidebar-atas .widget{margin-bottom:0;padding:0}
+.kotak_iklan2 img{text-align:center;transition:all 1s ease-out}
+.kotak_iklan2 img:hover{transition:all .5s ease-out}
+#HTML1 .widget-content,#HTML2 .widget-content,#HTML3 .widget-content{padding:0;}
+/* To top */
+.backtotopx{visibility:hidden;z-index:2;background:rgba(0,0,0,0.6);color:#fff;font-size:20px;width:37px;height:37px;line-height:37px;text-align:center;position:fixed;bottom:10px;right:10px;border-radius:2px;cursor:pointer;transition:all .4s;}
+.backtotopx.arlniainf{visibility:visible;cursor:pointer;opacity:1;-webkit-transform:translateZ(0);transform:translateZ(0);transition:all .4s;}
+/* Arlina Global Responsive */
+@media screen and (max-width:800px) {
+#footer-wrapper{padding:20px 0}
+#header {text-align:center}
+#headerlight {float:none;max-width:100%;}
+.header-right {float:none;margin:20px 0 0 0;max-width:100%;}
+#main-wrapper {float:none;border:0;width:100%;}
+#sidebar-wrapper {padding: 0 20px;width:100%;float:none;}
+#menu {display:block;}
+#lightnavigation{background:#fff;font-size:initial;position:relative;display:block;padding:20px;text-transform:uppercase;font-weight:700;border-top:1px solid rgba(0,0,0,0.12);border-bottom:1px solid rgba(0,0,0,0.12)}
+#lightnavigation ul{background:#8898aa;position:absolute;top:100%;left:0;z-index:3;height:auto;display:none}
+#lightnavigation ul.menus{width:100%;position:static;padding-left:20px}
+#lightnavigation li{display:block;float:none;width:auto}
+#lightnavigation input,#lightnavigation label{position:absolute;top:0;left:0;display:block}
+#lightnavigation input{z-index:4}
+#lightnavigation input:checked + label{color:#fff}
+#lightnavigation input:checked ~ ul{display:block;width:100%}
+#lightnavigation li:hover &gt; ul{width:100%}
+#lightnavigation li li {border:0;}
+#lightnavigation li li &gt; a {background:#3b5280;color:#fff;}
+lightnavigation li li:hover, #lightnavigation li li a:hover {background:#41598B;color:#fff;}
+#lightnavigation li ul {background:#fff;display:block;visibility:visible;opacity:1;padding:0;position:relative;width:100%;left:initial;box-shadow:none;}
+#lightnavigation li:hover ul.menus,#lightnavigation li:hover &gt; ul{left:initial}
+#footme{padding:0 20px}}
+@media only screen and (max-width:768px) {
+#header{padding:25px 20px;}
+#headerlight {float:none;max-width:100%;}
+.header-right {float:none;max-width:100%;margin-top:20px;}
+#sidebar-wrapper,#main-wrapper {width:100%;padding:0 20px 20px 20px;}
+.sidebar {padding:0;}
+.menusearch{display:block;margin:20px 0;padding:0 20px;max-width:100%;}
+.searchform .searchfield {width:100%;}}
+@media screen and (max-width:640px) {
+.post-info {display:none}
+.status-msg-border {width:97%}
+.post h2 {font-size:100%}
+h1.post-title.entry-title,h2.post-title.entry-title{font-size:18px;margin:0}
+#footer-wrapper{margin:auto;border-top:1px solid rgba(0,0,0,0.1)}
+#sosmed ul{padding:10px 0}
+#sosmed ul li{display:table;margin:10px auto;position:relative;width:90%;text-align:center}
+#footer-wrapper .footmekiri,#footer-wrapper .footmekanan{float:none;text-align:center}
+.backtotopx{width:32px;height:32px;line-height:32px}}
+@media screen and (max-width:480px) {
+body{background:#fff}
+.comments .comments-content .user{line-height:2.8em}
+.post h2{font-size:100%}
+.post h1{font-size:120%}
+body,.body-fauxcolumn-outer{font-size:80%}
+.menusearch{padding:0}
+#header p.description{line-height:normal}
+#main-wrapper,#sidebar-wrapper{padding:0}
+.post{padding:10px}}
+@media screen and (max-width:320px) {
+body{background:#fff}
+#sidebar-wrapper{padding:0 10px}
+.daftar-recent-post,.widget-content{padding:12px 0}
+#sosmed ul li{width:100%}}
+@media screen and (max-width:240px) {
+body,.body-fauxcolumn-outer {font-size:80%}}
+.status-msg-body {padding:10px 0;display:none}
+.status-msg-wrap{display:none;font-size:14px;margin-left:1px;width:100%;color:#666}
+.status-msg-wrap a{color:orange!important}
+.status-msg-bg{display:none;background:#ccc;position:relative;width:99%;padding:6px;z-index:1;border:2px #999 solid}
+.status-msg-border{display:none;border:0;position:relative;width:99%}
