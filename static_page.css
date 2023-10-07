@@ -1,0 +1,64 @@
+h1.post-title.entry-title a:hover, h2.post-title.entry-title a:hover {color:#5f93fa;}
+.post-thumb{position:relative;background:#f2f3f6;overflow:hidden;float:left;min-width:220px;height:auto;min-height:160px;margin:0 20px 0 0;transition:all .3s}
+.post-thumbnail{background:#f2f3f6;width:100%;height:auto;}.post-thumb img{background:#f2f3f6;}
+.post-thumb .comment-info{position:absolute;top:0;left:0;z-index:5;color:#fff;padding:0}
+.post-thumb .comment-info a{display:inline-block;background:red;color:#fff;padding:10px}
+span.label-info a.label-block:nth-child(n+2) {display:none;}
+.snippets{color:#555;line-height:1.7;margin:0 0 8px 0}
+a.post-readmore{position:relative;background:#189e15;display:inline-block;float:left;padding:2px 6px;color:#fff;font-size:11px;font-weight:700;overflow:hidden;text-transform:uppercase;transition:background-color 0.4s}
+a.post-readmore:hover{background-color:#000;color:#fff;}
+a.post-readmore:hover .shine{transform:skewX(20deg) translateX(300px)}
+a.post-readmore i{margin:0 2px 0 4px}
+.shine{position:absolute;top:0;left:-70px;height:68px;width:30px;background:rgba(255,255,255,0.4);transition:all .3s linear;transform:skewX(20deg) translateX(0)}
+.post-timestamp,.author-info,.comment-info,.label-info{padding:0}
+.post-timestamp{float:right}
+.post-timestamp a abbr.published.updated{border:0;cursor:pointer}
+.post-info{padding:5px 0;overflow:hidden;border:0;margin:0 0 20px;font-size:14px;font-weight:700;text-transform:uppercase}
+.post-info a{color:#555}
+.post-info a:hover{color:#5f93fa;}
+/* Page Navigation */
+#blog-pager{background:#fff;clear:both;width:auto;padding:20px;line-height:normal;position:relative;display:block;text-align:left;overflow:visible;margin:20px 0 5px 0}
+.showpage a,.showpageNum a,.showpagePoint,.showpageOf{position:relative;background:#f2f3f6;display:inline-block;font-size:13px;color:rgba(0,0,0,.8);padding:7px 10px;margin:0 6px 0 0;font-weight:700;transition:all .3s}
+.showpageNum a:before{content:&#39;&#39;;position:absolute;top:0;bottom:0;left:0;right:0;box-shadow:inset 0 -2px 2px rgba(0,0,0,0.02);transition:box-shadow 0.5s}
+.showpage a:hover,.showpageNum a:hover{background:#dbdde3;color:#333;position:relative;}
+.showpagePoint{background:#dd4b39;color:#fff;}
+.showpagePoint:hover{background:#ff5e4a;color:#fff;}
+/* Arlina Featured Post */
+#featured-posts-section{max-height:350px;overflow:hidden;margin:0 auto 20px}
+.featured-post a{font-size:1.2em;color:#fff;}
+.featured-post a:hover{color:#fff;text-decoration:underline;}
+.main-post.featured-post a{margin:0;font-size:17px}
+.featured-post .col-post{float:left;position:relative;overflow:hidden;margin:0 20px 0 0}
+.featured-post .secondary-post{background:#dadada;width:32%;margin:0 0 20px 0;transition:all .4s}
+.featured-post .main-post{background:#dadada;width:65.9%;padding:0;transition:all .4s}
+.featured-post .main-post:before,.featured-post .secondary-post:before{bottom:0;content:&quot;&quot;;display:block;height:50%;width:100%;position:absolute;z-index:1;background:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%)}
+.featured-post .main-post:after,.featured-post .secondary-post:after{content:&#39;&#39;;background-color:rgba(0,0,0,0.2);position:absolute;text-align:center;top:0;left:0;right:0;bottom:0;z-index:1;opacity:0;visibility:hidden;transform:scale(0.8);transition:all 0.20s linear}
+.featured-post .main-post:hover:after,.featured-post .secondary-post:hover:after{opacity:1;visibility:visible;transform:scale(1.0)}
+.featured-post span{background:rgba(0,0,0,0.3);display:inline-block;color:#fff;font-style:normal;position:absolute;transition:all .4s;font-size:11px;line-height:1.4;padding:3px 6px;top:10px;left:10px;z-index:2}
+.featured-post .main-post:hover span,.featured-post .secondary-post:hover span{background:#34495e;}
+.featured-post img{height:100%;transition:all .5s}
+.featured-post .main-post img{height:350px;width:100%;object-fit:cover;}
+.featured-post .secondary-post img{height:165px;object-fit:cover;width:100%;}
+.featured-post .main-post:hover img,.featured-post .secondary-post:hover img{backface-visibility:hidden;transform-style:preserve-3d;}
+.featured-post header{position:absolute;bottom:0;left:0;right:0;padding:20px;z-index:2;}
+.featured-post .secondary-post header{padding:10px}
+.featured-post header h3{font-size:20px;}
+.featured-post h4{font-size:13px;}
+@media screen and (max-width:768px) {
+h1.post-title.entry-title a, h2.post-title.entry-title a {display:inline-block;margin:15px 0;}
+#featured-posts-section{display:none}}
+@media screen and (max-width:640px) {
+.post-thumb{width:100%;margin:0;min-width:auto;min-height:auto;max-height:200px;}
+.post-thumbnail {width:100%;height:auto;}
+h1.post-title.entry-title a, h2.post-title.entry-title a {margin:10px 0;}
+a.post-readmore{background:#fff;padding:1px 6px;color:#333;border:1px solid rgba(0,0,0,0.18);transition:background-color 0.4s}
+a.post-readmore:hover{background-color:#fff;color:#555;border-color:rgba(0,0,0,0.28);}
+#blog-pager {padding:12px;}
+.showpage a,.showpageNum a,.showpagePoint,.showpageOf{margin:0 3px 3px 0;background:#fff;border:1px solid rgba(0,0,0,0.16)}
+.showpagePoint{background:#dd4b39;color:#fff}
+.showpage a:hover,.showpageNum a:hover{background:#f2f3f6;color:#333;position:relative;}
+.snippets{font-size:96%;color:#999}}
+@media screen and (max-width:480px) {
+.post-thumb{max-height:160px;}}
+@media screen and (max-width:320px) {
+.showpage a,.showpageNum a,.showpagePoint,.showpageOf{padding:3px 6px}}
