@@ -1,0 +1,181 @@
+/* Arlina Post Area */
+.post {overflow:hidden;}
+.post-info{display:block;padding:0;color:#999;line-height:1.6em;font-size:11px;overflow:hidden;margin:0;font-weight:700;}
+.post-info a{text-transform:uppercase;font-weight:700;display:inline-block;border-radius:3px;border:1px solid #ccc;box-shadow:0 1px 0 rgba(0,0,0,.08);text-shadow:none;line-height:23px;padding:1px 8px 0 5px}
+.post-body p{margin:0}
+.post-timestamp {padding:0;}
+.post-body img {height:auto;margin-bottom:2px;opacity:1;transition:all .6s ease;}
+.post-body img:hover {opacity:0.97;}
+.post-body a.img,.post-body .separator a {margin-left:0!important;margin-right:0!important;}
+h1.post-title.entry-title,h2.post-title.entry-title{margin:20px 0;}
+.label-info{float:left;overflow:hidden;display:inline-block;margin:20px 10px 0 0;border-radius:3px;border:1px solid #ccc;box-shadow:0 1px 0 rgba(0,0,0,.08);text-shadow:none;line-height:23px;padding:1px 8px 0 5px}
+.label-info a{color:#555;}
+.label-info:hover{opacity:.9;}
+.wa-info {display:inline-block;margin:10px 0 0 0;}
+/* CSS Comments */
+#comments{background:#fff;position:relative;margin:10px auto 20px auto;padding:20px;}
+.comment_avatar_wrap{width:42px;height:42px;background:#fcfcfc;border-radius:6px;text-align:center;margin:0 0 20px 0;padding:0}
+#comments .avatar-image-container{float:left;margin:0 10px 0 0;width:42px;height:42px;max-width:42px;max-height:42px;padding:0;margin-bottom:10px}
+#comments .avatar-image-container img{width:42px;height:42px;max-width:42px;max-height:42px;background:url(https://2.bp.blogspot.com/-fjaZBtfvzac/UN1mw2tUamI/AAAAAAAADkc/XdKqt8hWZ6w/s1600/anon.jpg) no-repeat}
+#comments .comment_name a{font-weight:bold;padding:5px 0 0 0;font-size:13px;text-decoration:none}
+#comments .comment_admin .comment_name{font-weight:700;padding:10px 0;font-size:13px;text-decoration:none;}
+#comments .comment_admin .comment_date{font-weight:normal;font-size:11px}
+#comments .comment_name{padding:10px;font-size:13px;font-weight:bold;position:relative}
+#comments .comment_service{margin-top:5px}
+#comments .comment_date{color:#a9a9a9;float:right;font-size:11px;font-weight:normal;margin-top:-3px}
+#comments .comment_date a{color:#a9a9a9;float:right;font-size:11px;font-weight:normal}
+#comments .comment_date a:hover{color:#a9a9a9;text-decoration:none}
+#comments .comment_body{margin-left:60px;margin-top:-64px;background:#f2f3f6;border-bottom:3px solid rgba(0,0,0,0.06);padding:10px;border-radius:2px}
+#comments .comment_body p{line-height:1.5em;margin:5px 0 0 0;color:#666;font-size:13px;word-wrap:break-word;background:#fff;padding:10px}
+#comments .comment_inner{margin:12px 0}
+#comments .comment_child .comment_wrap{padding-left:3%}
+#comments .comment_reply{display:inline-block;margin-top:10px;padding:4px;color:#fff;text-align:center;text-decoration:none;background:#1eaeef;font:11px/18px sans-serif;transition:background-color 1s ease-out 0s}
+#comments .comment_reply:hover{text-decoration:none;background:#199dd9}
+#comments .unneeded-paging-control{display:none}
+#comments .comment-form{max-width:100%;}
+#comment-editor{width:100%;background:transparent url(https://4.bp.blogspot.com/-jSUS8v5kwpQ/U8Z_6Ufr-PI/AAAAAAAAEYY/o4cQPKvt8vQ/s1600/loading.gif) no-repeat 50% 30%;border:1px solid #eee}
+#comments .comment_form a{text-decoration:none;}
+#comments .comment-form p{background:#f87362;padding:15px 15px 11px;margin:5px 0 15px;color:rgba(255,255,255,1);font-size:15px;line-height:normal;border-radius:3px;position:relative;max-width:100%;font-weight:700}
+#comments .comment-form p:after{content:&quot;&quot;;width:0;height:0;position:absolute;bottom:-16px;left:15px;border:8px solid transparent;border-color:#f87362 transparent transparent}
+#comments .comment_reply_form{padding:0 0 0 70px}
+#comments .comment_reply_form .comment-form{width:99%}
+.comment_emo_list .item{float:left;display:block;text-align:center;margin:5px 5px 0 0;height:40px;width:41px}
+.comment_emo_list span{display:block;font-weight:bold;font-size:11px;letter-spacing:1px}
+img.comment_emo {width:16px;height:16px;}
+.comment_youtube{max-width:100%;width:400px;height:225px;display:block;margin:auto}
+.comment_img{max-width:100%}
+#comments .deleted-comment{padding:10px 10px 10px 10px;display:block;color:#CCC}
+#comments .comment_header{width:50px}
+#respond{overflow:hidden;padding-left:10px;clear:both}
+#comments .comment_avatar img{width:42px;height:auto;background:url(https://3.bp.blogspot.com/-fr42e67HG4I/Vky8HLexiEI/AAAAAAAAM0I/MLMd2qwIH1E/s1600/avatar.png) no-repeat;border-radius:6px}
+#comments .comment-delete img{float:right;margin-left:15px;margin-top:3px;margin-right:10px}
+iframe{border:none;overflow:hidden}
+#emo-box,#hide-emo{display:none}
+.paging-control-container{text-align:center;margin:0 0 0 25%}
+.paging-control-container a{text-align:center;margin:0 auto;background:#ccc;border:1px solid #dee1e2;padding:3px 10px}
+.button-group{float:right;text-align:left;margin:0 auto}
+button,button[disabled]:active{border:none;font-size:12px;font-weight:normal;border-radius:1px;border-bottom:2px solid #a0ad64;padding:4px 10px;text-decoration:none;background:#b6c472;color:#fff;display:inline-block;box-shadow:0 1px 3px 0 rgba(0,0,0,0.1);transition:all 0.5s linear;cursor:pointer}
+button:hover{background:#a0ad64;border-bottom:2px solid #8b9656;color:#fff;transition:all 0.2s linear}
+button:active{background:#a0ad64;border-bottom:2px solid #8b9656;color:#fff}
+button[disabled],button[disabled]:active{background:#a0ad64;border-bottom:2px solid #8b9656;color:#fff;cursor:default}
+.small-button a,.small-button1 a{color:#f87362;font-size:13px;cursor:pointer;margin:15px 5px 5px 0;text-decoration:none;text-transform:none;text-shadow:none;border-radius:3px;display:inline-block;background:#fff;padding:5px 10px;}
+.small-button:hover a,.small-button1:hover a{background:#fdfdfd;}
+/* Arlina Post Navigation */
+#blog-pager-newer-link,#blog-pager-older-link{font-size:100%}
+.blog-pager-older-link,.home-link,.blog-pager-newer-link{padding:0}
+.halaman{border-top:2px dashed rgba(0,0,0,0.1);margin:0;padding:20px 0 0;height:auto}
+.halaman-kanan,.halaman-kiri,.pager-title-left{transition:all .3s ease-in-out}
+.halaman-kanan,.halaman-kiri{color:#141924;background:0 0;width:50%;position:relative;margin:0}
+.halaman-kiri{height:auto;float:left;padding:0 10px 0 40px;text-align:left;}
+.halaman-kanan,.halaman-kiri{-webkit-box-sizing:border-box}
+.halaman-kanan{height:auto;float:right;padding:0 40px 0 10px;text-align:right;}
+.halaman-kanan a,.halaman-kiri a{color:#3b5998;font-size:16px;font-weight:500;line-height:1.3em}
+.halaman-kanan a:hover,.halaman-kanan:hover .pager-title-left,.halaman-kiri a:hover,.halaman-kiri:hover .pager-title-left{color:#5f93fa}
+.current-pageleft,.current-pageright,.halaman-kanan a,.halaman-kiri a{font-size:16px;font-family:Roboto,Arial,sans-serif;font-weight:700;background:transparent;text-decoration:none;line-height:1.3em}
+#blog-pager,.isihalaman-kanan,.isihalaman-kiri{margin:0}
+.panahkanan,.panahkiri{position:absolute;top:50%;margin-top:-8px}
+.panahkiri{left:10px}
+.panahkanan{right:10px}
+.clear{clear:both}
+.comments-content {display:block;position:relative;margin-top:20px;}
+/* Arlina Related Post */
+#related-post {margin:20px 0 0 0;padding:0;}
+#related-post h4 {padding:0;margin:0 0 20px;font-size:110%;border-bottom:2px dashed rgba(0,0,0,0.12)}
+#related-post h4 span{color:#333;padding:6px 0;display:inline-block;text-transform:uppercase;vertical-align:middle}
+.relhead {background:#fff;font-size:100%;font-weight:normal;line-height:150%;overflow:hidden;padding:10px 0;}
+ul#related-light {margin:0;padding:0;}
+ul#related-light li{position:relative;float:left;list-style:none outside none;margin:0 5px 10px 5px;padding:0;overflow:hidden;width:31.6%}
+ul#related-light li a {display:block;overflow:hidden;}
+ul#related-light li img{background-color:#f2f3f6;width:100%;height:auto;max-width:100%;margin:0 auto;vertical-align:middle;transition:all 1s ease-out}
+ul#related-light li img:hover {opacity:0.96;}
+ul#related-light li a.relinkjdulx{color:#3b5998;display:block;font-size:15px;font-weight:700;line-height:normal;overflow:hidden;text-align:left;padding:10px 5px 10px 0}
+ul#related-light li a.relinkjdulx:hover{color:#5f93fa;}
+/* Share Button */
+.sharede,.sharelight{position:relative;display:inline-block;}
+.sharelight{margin:40px auto 20px auto;}
+.sharelight a.fb,.sharelight a.gp,.sharelight a.tw,.sharelight span.pl{text-decoration:none!important;display:inline-block;margin:0 5px 5px 0;font-weight:400;border-radius:2px;color:#fff;text-shadow:none;padding:6px 16px;opacity:1;transition:all .3s}
+.sharelight a.gp {background:#f20000;}
+.sharelight a.fb {background:#516ca4;}
+.sharelight a.tw {background:#00baff;}
+.sharelight span.pl {background:#ff6600;}
+.fbtea,.gotea,.plustea,.twtea{font-size:13px!important;vertical-align:middle}
+.sharelight a.fb:hover,.sharelight a.gp:hover,.sharelight a.tw:hover,.sharelight span.pl:hover{color:#fff;opacity:.9}
+.sharelight a.fb:active,.sharelight a.gp:active,.sharelight a.tw:active,.sharelight span.pl:active{box-shadow:inset 0 1px 0 rgba(0,0,0,.16)}
+span.pl{color:green;cursor:pointer}
+.dropdown-menu{position:absolute;bottom:100%;left:0;z-index:99;float:left;min-width:100px;padding:5px 10px;margin:0;font-size:13px;text-align:left;list-style:none;background-color:#fff;-webkit-background-clip:padding-box;background-clip:padding-box;border:1px solid #ddd;border-radius:3px;}
+.dropdown-menu li{list-style:none!important;margin:0!important;padding-left:0!important;line-height:1.8em!important}
+.dropdown-menu li a{color:#333!important;font-weight:400;display:block}
+.dropdown-menu li a:hover{color:#e8554e!important}
+ul#share-menu{margin:10px 0;padding:5px 15px}
+/* CSS Google Url */
+.shorturl{font-size:100%;font-weight:bold;color:#666!important}
+.shorturl a.url{text-decoration:none!important;color:#666!important;display:inline-block;margin:0 0 0 5px;border-radius:3px;background:#f8f8f8;border:1px solid #ccc;box-shadow:0 1px 0 rgba(0,0,0,.08);text-shadow:none;line-height:23px;padding:1px 8px 0 5px;transition:all 400ms ease-in-out}
+.shorturl a.url:hover{color:#555;background:#fafafa;border:1px solid #999}
+.shorturl a.url:active{box-shadow:inset 0 1px 0 rgba(0,0,0,.16)}
+/* Arlina Shortcodes */
+.button{list-style:none;text-align:center;width:95%;margin:10px;padding:2px;font-size:14px;clear:both;}
+.button ul {margin:0;padding:0}
+.post-body ul.button {list-style:none;text-align:center;margin:20px auto;padding:2px;font-size:14px;clear:both;z-index:2;}
+.button li{display:inline;margin:5px;padding:0;list-style:none;}
+.post-body ul.button a.demo,.post-body ul.button a.download{display:block;background:#8bc34a;max-width:180px;padding:8px 12px;color:#fff;font-weight:700;font-size:14px;text-align:center;text-transform:uppercase;letter-spacing:0.5px;margin:auto;border-radius:3px;transition:all .3s}
+.post-body ul.button a.demo{background:#5c7dc2;}
+.post-body ul.button a.download{background:#da972d;}
+.post-body ul.button a.demo:hover,.post-body ul.button a.download:hover {opacity:.9;color:#fff}
+.first-letter{float:left;color:#f77c6a;font-size:75px;line-height:60px;padding-top:4px;padding-right:8px;padding-left:3px;font-family:Georgia}
+.alert-message{position:relative;display:block;background-color:#f7f8fa;padding:20px;margin:20px 0;color:#39484d;}
+.alert-message p{margin:0!important;padding:0;line-height:20px;font-size:13px;color:#39484d}
+.alert-message span{font-size:14px!important}
+.alert-message i{font-size:20px;text-align:left;display:inline-block;position:absolute;right:0;top:0;padding:20px;opacity:0.8;}
+.alert-message.success{background-color:#00acd6;color:#fff}.alert-message.alert{background-color:#0073b7;color:#fff}.alert-message.warning{background-color:#efa666;color:#fff}.alert-message.error{background-color:#f56c7e;color:#fff}
+.alert-message.success a,.alert-message.success span,.alert-message.alert a,.alert-message.alert span,.alert-message.warning a,.alert-message.warning span,.alert-message.error a,.alert-message.error span{color:#fff}
+#flippy {text-align:center;}
+#flippy button {margin:10px auto;cursor:default;background-color:#fff;color:#fefefe;padding:10px 15px!important;text-transform:uppercase;border:none;opacity:0.9;transition:all 0.3s ease-out;}
+#flippy button:hover, #flippy button:focus {outline:none;opacity:1;color:#fff;}
+#flippanel {padding:1px;text-align:left;background:#fafafa;border:1px solid #e3e3e3;}
+#flippanel {padding:24px;display:none;}
+#flippanel img {background:#f5f5f5;margin:10px auto;}
+.bagitiga {-webkit-column-count:3;-moz-column-count:3;column-count:3;}
+.bagitiga img{-webkit-backface-visibility:hidden;margin-bottom:20px;max-width:100%;}
+#wrap{margin:20px auto;text-align:center}
+.btn{background:#7fa4ed;padding:8px 12px;color:#fff;font-weight:700;font-size:14px;text-align:center;text-transform:uppercase;letter-spacing:0.5px;border-radius:4px;transition:all .3s}
+.btn:hover,.btn:active,.btn.down:hover,.btn.down:active{background:#41598B}
+.post-body a:visited.btn,.post-body a:visited.btn.down,.post-body a:link.btn,.post-body a.btn.down,.post-body a.btn:hover,.post-body a.btn:active,.post-body a.btn.down:hover,.post-body a.btn.down:active{color:#fff}
+.btn i{margin:0}
+.btn.down.anima{-webkit-animation:anim 2s ease-in infinite;animation:anim 2s ease-in infinite}
+.videoyoutube{text-align:center;margin:auto;width:100%;}.video-responsive{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;}.video-responsive iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+blockquote#customize{background:#f8f8f8;border:1px solid #e3e3e3;color:#333;padding:10px 15px 15px 15px}
+blockquote#customize ul.button a.download{background:#8bc34a;}blockquote#customize ul.button a.download:hover{background:#555;border-color:#111;}
+blockquote#customize:before,#related-light .news-text,.loading-shorturl,#share-menu{display:none}
+/* CSS Syntax Highlighting */
+.hljs{display:block;overflow-x:auto;padding:0.5em;background:#333;color:white}
+.hljs-name,.hljs-strong{font-weight:bold}
+.hljs-code,.hljs-emphasis{font-style:italic}
+.hljs-tag{color:#62c8f3}
+.hljs-variable,.hljs-template-variable,.hljs-selector-id,.hljs-selector-class{color:#ade5fc}
+.hljs-string,.hljs-bullet{color:#a2fca2}
+.hljs-type,.hljs-title,.hljs-section,.hljs-attribute,.hljs-quote,.hljs-built_in,.hljs-builtin-name{color:#ffa}
+.hljs-number,.hljs-symbol,.hljs-bullet{color:#d36363}
+.hljs-keyword,.hljs-selector-tag,.hljs-literal{color:#fcc28c}
+.hljs-comment,.hljs-deletion,.hljs-code{color:#888}
+.hljs-regexp,.hljs-link{color:#c6b4f0}
+.hljs-meta{color:#fc9b9b}
+.hljs-deletion{background-color:#fc9b9b;color:#333}
+.hljs-addition{background-color:#a2fca2;color:#333}
+.hljs a{color:inherit}
+.hljs a:focus,.hljs a:hover{color:inherit;text-decoration:underline}
+/* CSS Item Responsive */
+@media only screen and (max-width:1366px) {
+#sticky-side .recent-post-arlina li:last-child{display:none}}
+@media only screen and (max-width:960px){
+.bagitiga{-webkit-column-count:2;-moz-column-count:2;column-count:2;}}
+@media only screen and (max-width:640px){
+ul#related-light li {float:left;list-style:none;overflow:hidden;width:100%;border-bottom:1px solid #e6e6e6;padding:10px 0;}
+ul#related-light li:last-child{border-bottom:none;}
+ul#related-light li a.relinkjdulx {display:block;font-size:14px;font-weight:700;line-height:normal;overflow:hidden;padding:10px 10px 10px 0;}
+ul#related-light li img {display:none;}
+.bagitiga{-webkit-column-count:1;-moz-column-count:1;column-count:1;}}
+@media screen and (max-width:603px){.halaman-kanan,.halaman-kiri{width:100%;padding:0}
+.isihalaman-kiri{margin-left:40px!important}
+.isihalaman-kanan{margin-right:40px!important}
+.panahkiri{margin-top:-18px}
+.halaman-kiri:after{content:&#39;&#39;;height:1px;width:100%;background:#dedede;display:block;margin:10px 0}}
