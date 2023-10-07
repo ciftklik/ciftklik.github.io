@@ -1,0 +1,15 @@
+.header-wrapper, #header, #outer-wrapper, #post-wrapper, #sidebar-wrapper, #content-wrapper,#footer-wrapper,#lightnavigation,#wrapper,.backtotopx{display:none;}
+body,html{overflow:hidden;margin:0;padding:0;width:100%;min-height:100vh;}
+.container404{margin:8% auto 0 auto;max-width:560px;min-width:200px;line-height:normal;backface-visibility:hidden;transition:all .3s;}
+.container404:hover{cursor:crosshair;transform:scale(1.1)}
+.box404 hr{background:transparent;display:block;border:none;border-bottom:2px dashed rgba(0,0,0,0.1)}
+.box404{background-color:#fff;padding:20px;font-size:110%;color:#888;border-radius:5px 5px 0 0}
+.box404 h2,.box404 h3{color:#444;display:block;text-align:center;font-size:120%}
+.box404 h2{font-size:4rem;color:#e74c3c;}
+.box404 p{display:block;margin:10px 0}
+.box404 ul li{margin:0 0 8px 20px;list-style:initial;list-style-type:square}
+.box404 ul li a{color:#888;}
+.copyright404{background:#444;display:block;text-align:center;color:#fff;margin:auto;font-weight:normal;max-width:560px;min-width:200px;padding:20px;border-radius:0 0 5px 5px}
+.copyright404 a,.copyright404 a:hover{color:#fff}
+@media screen and (max-width:1024px) {
+.container404{margin:4% auto 0 auto;}}
