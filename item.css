@@ -33,7 +33,7 @@ h1.post-title.entry-title,h2.post-title.entry-title{margin:20px 0;}
 #comments .comment_reply:hover{text-decoration:none;background:#199dd9}
 #comments .unneeded-paging-control{display:none}
 #comments .comment-form{max-width:100%;}
-#comment-editor{width:100%;background:transparent url(https://4.bp.blogspot.com/-jSUS8v5kwpQ/U8Z_6Ufr-PI/AAAAAAAAEYY/o4cQPKvt8vQ/s1600/loading.gif) no-repeat 50% 30%;}
+#comment-editor{width:100%;background: #eee;}
 #comments .comment_form a{text-decoration:none;}
 #comments .comment-form p{background:#f87362;padding:15px 15px 11px;margin:5px 0 15px;color:rgba(255,255,255,1);font-size:15px;line-height:normal;border-radius:3px;position:relative;max-width:100%;font-weight:700}
 #comments .comment-form p:after{content:&quot;&quot;;width:0;height:0;position:absolute;bottom:-16px;left:15px;border:8px solid transparent;border-color:#f87362 transparent transparent}
