@@ -16,7 +16,7 @@ h1.post-title.entry-title,h2.post-title.entry-title{margin:20px 0;}
 #comments{background:#fff;position:relative;margin:10px auto 20px auto;padding:20px;}
 .comment_avatar_wrap{width:42px;height:42px;background:#fcfcfc;border-radius:6px;text-align:center;margin:0 0 20px 0;padding:0}
 #comments .avatar-image-container{float:left;margin:0 10px 0 0;width:42px;height:42px;max-width:42px;max-height:42px;padding:0;margin-bottom:10px}
-#comments .avatar-image-container img{width:42px;height:42px;max-width:42px;max-height:42px;background:url(https://2.bp.blogspot.com/-fjaZBtfvzac/UN1mw2tUamI/AAAAAAAADkc/XdKqt8hWZ6w/s1600/anon.jpg) no-repeat}
+#comments .avatar-image-container img{width:42px;height:42px;max-width:42px;max-height:42px;}
 #comments .comment_name a{font-weight:bold;padding:5px 0 0 0;font-size:13px;text-decoration:none}
 #comments .comment_admin .comment_name{font-weight:700;padding:10px 0;font-size:13px;text-decoration:none;}
 #comments .comment_admin .comment_date{font-weight:normal;font-size:11px}
@@ -25,7 +25,7 @@ h1.post-title.entry-title,h2.post-title.entry-title{margin:20px 0;}
 #comments .comment_date{color:#a9a9a9;float:right;font-size:11px;font-weight:normal;margin-top:-3px}
 #comments .comment_date a{color:#a9a9a9;float:right;font-size:11px;font-weight:normal}
 #comments .comment_date a:hover{color:#a9a9a9;text-decoration:none}
-#comments .comment_body{margin-left:60px;margin-top:-64px;background:#f2f3f6;border-bottom:3px solid rgba(0,0,0,0.06);padding:10px;border-radius:2px}
+#comments .comment_body{margin-left: 60px; margin-top:-64px;padding: 10px;border-radius: 13px;border: 1px solid #eee;}
 #comments .comment_body p{line-height:1.5em;margin:5px 0 0 0;color:#666;font-size:13px;word-wrap:break-word;background:#fff;padding:10px}
 #comments .comment_inner{margin:12px 0}
 #comments .comment_child .comment_wrap{padding-left:3%}
