@@ -85,7 +85,7 @@ button[disabled],button[disabled]:active{background:#a0ad64;border-bottom:2px so
 ul#related-light {margin:0;padding:0;}
 ul#related-light li{position:relative;float:left;list-style:none outside none;margin:0 5px 10px 5px;padding:0;overflow:hidden;width:31.6%}
 ul#related-light li a {display:block;overflow:hidden;}
-ul#related-light li img{background-color:#f2f3f6;width:100%;height:auto;max-width:100%;margin:0 auto;vertical-align:middle;transition:all 1s ease-out}
+ul#related-light li img{background-color:#f2f3f6;width:100%;height:148px;max-width:100%;margin:0 auto;vertical-align:middle;transition:all 1s ease-out; border-radius:12px;}
 ul#related-light li img:hover {opacity:0.96;}
 ul#related-light li a.relinkjdulx{color:#3b5998;display:block;font-size:15px;font-weight:700;line-height:normal;overflow:hidden;text-align:left;padding:10px 5px 10px 0}
 ul#related-light li a.relinkjdulx:hover{color:#5f93fa;}
