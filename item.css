@@ -47,7 +47,7 @@ img.comment_emo {width:16px;height:16px;}
 #comments .deleted-comment{padding:10px 10px 10px 10px;display:block;color:#CCC}
 #comments .comment_header{width:50px}
 #respond{overflow:hidden;padding-left:10px;clear:both}
-#comments .comment_avatar img{width:42px;height:auto;background:url(https://3.bp.blogspot.com/-fr42e67HG4I/Vky8HLexiEI/AAAAAAAAM0I/MLMd2qwIH1E/s1600/avatar.png) no-repeat;border-radius:6px}
+#comments .comment_avatar img[src='//resources.blogblog.com/img/blank.gif']{width:42px;height:auto;background:url(https://3.bp.blogspot.com/-fr42e67HG4I/Vky8HLexiEI/AAAAAAAAM0I/MLMd2qwIH1E/s1600/avatar.png) no-repeat;border-radius:6px}
 #comments .comment-delete img{float:right;margin-left:15px;margin-top:3px;margin-right:10px}
 iframe{border:none;overflow:hidden}
 #emo-box,#hide-emo{display:none}
