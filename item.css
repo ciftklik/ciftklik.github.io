@@ -82,7 +82,7 @@ button[disabled],button[disabled]:active{background:#a0ad64;border-bottom:2px so
 #related-post h4 {padding:0;margin:0 0 20px;font-size:110%;border-bottom:2px dashed rgba(0,0,0,0.12)}
 #related-post h4 span{color:#333;padding:6px 0;display:inline-block;text-transform:uppercase;vertical-align:middle}
 .relhead {background:#fff;font-size:100%;font-weight:normal;line-height:150%;overflow:hidden;padding:10px 0;}
-ul#related-light {margin:0;padding:0;}
+ul#related-light {margin:0;padding:0;display:flex;flex-wrap:wrap;}
 ul#related-light li{position:relative;float:left;list-style:none outside none;margin:0 5px 10px 5px;padding:0;overflow:hidden;width:31.6%}
 ul#related-light li a {display:block;overflow:hidden;}
 ul#related-light li img{background-color:#f2f3f6;width:100%;height:148px;max-width:100%;margin:0 auto;vertical-align:middle;transition:all 1s ease-out; border-radius:12px;}
