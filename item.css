@@ -3,7 +3,6 @@
 .post-info{display:block;padding:0;color:#999;line-height:1.6em;font-size:11px;overflow:hidden;margin:0;font-weight:700;}
 .post-info a{text-transform:uppercase;font-weight:700;display:inline-block;border-radius:3px;border:1px solid #ccc;box-shadow:0 1px 0 rgba(0,0,0,.08);text-shadow:none;line-height:23px;padding:1px 8px 0 5px}
 .post-body p{margin:0}
-.post-timestamp {padding:0;}
 .post-body img {height:auto;margin-bottom:2px;opacity:1;transition:all .6s ease;}
 .post-body img:hover {opacity:0.97;}
 .post-body a.img,.post-body .separator a {margin-left:0!important;margin-right:0!important;}
