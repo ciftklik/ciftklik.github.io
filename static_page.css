@@ -5,7 +5,7 @@ h1.post-title.entry-title a:hover, h2.post-title.entry-title a:hover {color:#5f9
 .post-thumb .comment-info a{display:inline-block;background:red;color:#fff;padding:10px}
 span.label-info a.label-block:nth-child(n+2) {display:none;}
 .snippets{color:#555;line-height:1.7;margin:0 0 8px 0}
-a.post-readmore{position:relative;background:#189e15;display:inline-block;float:left;padding:2px 6px;color:#fff;font-size:11px;font-weight:700;overflow:hidden;text-transform:uppercase;transition:background-color 0.4s}
+a.post-readmore{position:relative;background:#189e15;display:inline-block;float:right;padding:2px 6px;color:#fff;font-size:11px;font-weight:700;overflow:hidden;text-transform:uppercase;transition:background-color 0.4s}
 a.post-readmore:hover{background-color:#000;color:#fff;}
 a.post-readmore:hover .shine{transform:skewX(20deg) translateX(300px)}
 a.post-readmore i{margin:0 2px 0 4px}
