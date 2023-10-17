@@ -253,7 +253,7 @@ h1.post-title.entry-title a:hover,h2.post-title.entry-title a:hover{color:#5e94e
 /* Popular Post */
 #PopularPosts1 ul,.PopularPosts li,.PopularPosts li img,.PopularPosts li a,.PopularPosts li a img{color:#3b5998;margin:0;padding:0;list-style:none;border:none}
 #PopularPosts1 ul{margin:0;list-style:none}
-#PopularPosts1 ul li{margin:5px 0;padding:5px 0;position:relative}
+#PopularPosts1 ul li{width:100%;margin:5px 0;padding:5px 0;position:relative}
 #PopularPosts1 ul li img{display:block;width:100%;height:60px}
 #PopularPosts1 ul li .item-title a,.PopularPosts ul li a{font-size:14px;font-weight:700}
 #PopularPosts1 .item-thumbnail{margin:0 10px 0 0;width:60px;height:60px}
