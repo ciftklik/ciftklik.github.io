@@ -40,7 +40,7 @@ a.post-readmore i{margin:0 2px 0 4px}
 .featured-post .main-post img{height:350px;width:100%;object-fit:cover;}
 .featured-post .secondary-post img{height:165px;object-fit:cover;width:100%;}
 .featured-post .main-post:hover img,.featured-post .secondary-post:hover img{backface-visibility:hidden;transform-style:preserve-3d;}
-.featured-post header{position:absolute;bottom:0;left:0;right:0;padding:20px;z-index:2;}
+.featured-post header{ background: #00000091;position:absolute;bottom:0;left:0;right:0;padding:20px;z-index:2;}
 .featured-post .secondary-post header{padding:10px}
 .featured-post header h3{font-size:20px;}
 .featured-post h4{font-size:13px;}
